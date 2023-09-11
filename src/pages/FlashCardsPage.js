@@ -58,10 +58,7 @@ export default function FlashCardsPage(){
                 setError(error.message)
             }            
         }
-
-        
         getAllCards();
-
     },[])
 
     useEffect(()=>{
@@ -243,11 +240,7 @@ export default function FlashCardsPage(){
                             })}
                         </FlashCards>
                     </TabPanel>
-                </Tabs>
-
-
-
-                               
+                </Tabs>                               
             </>
         )
     }
