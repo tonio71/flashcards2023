@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const axiosInstance = axios.create({
         //baseURL:'http://localhost:3001',
-        baseURL:`${process.env.BACKEND_URL}`,
+        baseURL:"https://flashcard2023-vercel-backend.vercel.app",
         timeout:10000
 })
 
